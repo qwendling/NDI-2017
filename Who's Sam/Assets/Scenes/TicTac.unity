@@ -393,6 +393,7 @@ GameObject:
   - component: {fileID: 1714869757}
   - component: {fileID: 1714869759}
   - component: {fileID: 1714869758}
+  - component: {fileID: 1714869760}
   m_Layer: 0
   m_Name: PlayerName
   m_TagString: Untagged
@@ -457,3 +458,19 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1714869756}
+--- !u!114 &1714869760
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1714869756}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d1175f2521c93784bb27bfa0b998b15a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerList:
+  - Audric
+  - Guillaume
+  - Elisa
+  - Nathan
