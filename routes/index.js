@@ -6,4 +6,8 @@ router.get('/', function(req, res) {
   res.render('index', { title: 'Express' });
 });
 
+router.get('/konami', function(req, res) {
+  res.render('konami', { title: 'Konami' });
+});
+
 module.exports = router;
