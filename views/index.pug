@@ -1,5 +1,18 @@
 extends layout
 
 block content
-  h1= title
-  p Welcome to #{title}
+
+  div(class="cover-container")
+    div(class="masthead clearfix")
+      div(class="row")
+        div(class="col-md-2 col-md-offset-1")
+          h3(class="masthead-brand1 DumbeldorMaitreDeTous") 
+            span(class="Who") Who'
+            span(class="SAM") SAM 
+        div(class="col-md-2 col-md-offset-3")
+          button(class="appliButton")
+            a(class="appliURL" href="/application.pug") Qui sera SAM ?
+            
+  div(class="row")
+    span
+      div(class="separateLeft")

@@ -3,6 +3,44 @@ body {
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
 }
 
-a {
-  color: #00B7FF;
+.cover-container{
+  margin-left: 10%;
+}
+
+.Who{
+  color: #FF6C18;
+}
+
+.SAM{
+  color: #BBBDBD;
+}
+
+.appliButton{
+  background-color: #FF6C18;
+  border : none;
+  border-radius: 5px;
+  color: #6B6B6B;
+  padding: 10px 15px 10px 15px;
+  margin-top: 14px;
+}
+
+.appliButton:hover{
+  background-color: #BBBDBD;
+}
+
+.appliURL{
+  color: white;
+}
+
+.appliURL:hover{
+  color: white;
+}
+
+.separateLeft{
+  margin-top: 20px;
+  margin-left: 10%;
+  width: 80%;
+  height: 10px;
+  background-image:linear-gradient(to right, #FDFFFF, #FF6C18,#FDFFFF);
+  border-radius: 3px;
 }
