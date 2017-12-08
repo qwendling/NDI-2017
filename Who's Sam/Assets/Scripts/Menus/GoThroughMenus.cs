@@ -8,6 +8,7 @@ public class GoThroughMenus : MonoBehaviour {
 	public GameObject _MainMenu;
 	public GameObject _PlayersListingMenu;
 	public GameObject _ChooseGameMenu;
+	public GameObject _SecretMenu;
 	public GameObject _Coordinator;
 
 	// Use this for initialization
@@ -15,6 +16,7 @@ public class GoThroughMenus : MonoBehaviour {
 		_MainMenu.SetActive (true);
 		_PlayersListingMenu.SetActive (false);
 		_ChooseGameMenu.SetActive (false);
+		_SecretMenu.SetActive (false);
 	}
 	
 	// Update is called once per frame
@@ -38,6 +40,14 @@ public class GoThroughMenus : MonoBehaviour {
 		_MainMenu.SetActive (false);
 		_PlayersListingMenu.SetActive (false);
 		_ChooseGameMenu.SetActive (true);
+	}
+
+	public void LaChambreDesSecretsEstOuverte(){
+		_SecretMenu.SetActive (true);
+	}
+
+	public void FermerLaChambre(){
+		_SecretMenu.SetActive (false);
 	}
 
 	public void onTicTacBoomClicked(){
