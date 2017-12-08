@@ -3,16 +3,15 @@ body{
 }
 
 .Preview{
-   background-image: url('http://lorempixel.com/400/200');
-   height:25%;
-   width:100%;
+   height:7em;
+   width:7em;
    margin-bottom: 10px;
  }
 
  .PreviewTitle{
-    position: relative;
-    top:40%;
-    width:100%;
-    background-color: #222;
-    opacity: 0.7;
+   background:#ac0024;
+   border-radius:50%;
+   width:100%;
+   height:100%;
+   border:2px solid;
   }
