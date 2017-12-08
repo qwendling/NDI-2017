@@ -32,5 +32,10 @@ public class PlayersManagement : MonoBehaviour {
 		Players [idx]._points += pts;
 	}
 
+	public void prout(){
+		for (int i = 0; i < nbPlayers; i++) {
+			Debug.Log (Players [i]._name);
+		}
+	}
 
 }

@@ -1,12 +1,14 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class GoThroughMenus : MonoBehaviour {
 
 	public GameObject _MainMenu;
 	public GameObject _PlayersListingMenu;
 	public GameObject _ChooseGameMenu;
+	public GameObject _Coordinator;
 
 	// Use this for initialization
 	void Start () {
@@ -30,6 +32,11 @@ public class GoThroughMenus : MonoBehaviour {
 		_MainMenu.SetActive (false);
 		_PlayersListingMenu.SetActive (false);
 		_ChooseGameMenu.SetActive (true);
+	}
+
+	public void onTicTacBoomClicked(){
+		DontDestroyOnLoad (_Coordinator);
+		SceneManager.LoadScene ("TicTac");
 	}
 		
 }
