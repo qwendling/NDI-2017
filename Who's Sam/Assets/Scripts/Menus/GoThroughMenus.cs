@@ -54,5 +54,10 @@ public class GoThroughMenus : MonoBehaviour {
 		DontDestroyOnLoad (_Coordinator);
 		SceneManager.LoadScene ("TicTac");
 	}
+
+	public void onQuizzClicked(){
+		DontDestroyOnLoad (_Coordinator);
+		SceneManager.LoadScene ("Quizz");
+	}
 		
 }
