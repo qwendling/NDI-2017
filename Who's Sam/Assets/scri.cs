@@ -2,12 +2,15 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class SelectNamePlayer : MonoBehaviour {
-
-	public List<string> playerList = new List<string>{};
+public class scri : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
+		
+	}
+	
+	// Update is called once per frame
+	void Update () {
 		
 	}
 }

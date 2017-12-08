@@ -34,6 +34,12 @@ public class GoThroughMenus : MonoBehaviour {
 		_ChooseGameMenu.SetActive (true);
 	}
 
+	public void onListDoneClicked(){
+		_MainMenu.SetActive (false);
+		_PlayersListingMenu.SetActive (false);
+		_ChooseGameMenu.SetActive (true);
+	}
+
 	public void onTicTacBoomClicked(){
 		DontDestroyOnLoad (_Coordinator);
 		SceneManager.LoadScene ("TicTac");
