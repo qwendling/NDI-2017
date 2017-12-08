@@ -4,8 +4,12 @@
     <meta charset="utf-8">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <title>Unity WebGL Player | Who's Sam</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+    <link rel="stylesheet" href="stylesheets/style.css">
     <link rel="shortcut icon" href="TemplateData/favicon.ico">
     <link rel="stylesheet" href="TemplateData/style.css">
+    <link rel="stylesheet" href="stylesheets/style.css">
     <script src="TemplateData/UnityProgress.js"></script>
     <script src="Build/UnityLoader.js"></script>
     <script>
@@ -13,12 +17,30 @@
     </script>
   </head>
   <body>
+    <div class="cover-container">
+      <div class="masthead clearfix">
+        <div class="row">
+          <div class="col-md-2 col-md-offset-1">
+            <a class="appliURL" href="/">
+              <h3 class="masthead-brand1 DumbeldorMaitreDeTous">
+                <span class="Who"> Who'</span>
+                <span class="SAM"> SAM</span>
+              </h3>
+            </a>
+          </div>
+          <!-- SAMgratte la tout de suite... mais je fais avec -->
+          <div class="col-md-5 col-md-offset-1">
+            <h4 class="slogan"> Rendre la route plus sûre ne dépend que de nous</h4>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+        <div class="separate"></div>
+    </div>
+
     <div class="webgl-content">
-      <div id="gameContainer" style="width: 960px; height: 600px"></div>
-      <div class="footer">
-        <div class="webgl-logo"></div>
-        <div class="fullscreen" onclick="gameInstance.SetFullscreen(1)"></div>
-        <div class="title">Who's Sam</div>
+      <div id="gameContainer"></div>
       </div>
     </div>
   </body>
