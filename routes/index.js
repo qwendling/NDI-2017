@@ -14,4 +14,8 @@ router.get('/application', function(req, res) {
   res.render('application', { title: 'Who\'SAM' });
 });
 
+router.get('/avant24',function(req,res) {
+  res.render('avant24');
+});
+
 module.exports = router;

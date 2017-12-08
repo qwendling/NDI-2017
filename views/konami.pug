@@ -21,6 +21,8 @@ html
         .col-md-4
           each item in list
             .col-md-4
-              .Preview
-                .PreviewTitle
-                  h1(style="color:white;text-align: center") #{item}
+              -var addrAvant = "avant"+item
+              a(href=addrAvant)
+                .Preview
+                  .PreviewTitle
+                    h1(style="color:white;text-align: center") #{item}
